@@ -1,0 +1,167 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  background-color: #efefef;
+}
+
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header{
+	background-color: #fff;
+}
+.header_section{
+width: 100%;
+}
+.header-top{
+ display:flex;
+ justify-content:space-between;
+ align-items:center; 
+
+ margin-top: 0;
+}
+
+.nav{
+display: flex;
+justify-content: center;
+list-style-type: none;
+background-color: #efefef;
+padding-left: 0;
+margin: 0;
+}
+
+.nav>li{
+margin-left: 10px;
+margin-right: 10px;
+margin: 15px 15px;
+}
+
+.nav>li>a{
+text-decoration: none;
+color: #333333;
+}
+
+.logo{
+  color: #66c05d;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 20px 150px;
+}
+
+
+.h1-title{
+	font-size: 36px;
+  font-weight: 700;
+  margin: 20px 150px;
+
+}
+.header-info button{
+font-size: 16px;
+border-radius: 20px;
+border: 2px solid #66c05d;
+background-color: transparent;
+padding: 10px 15px;
+margin: 20px 20px;
+}
+
+.header-info button:hover{
+background-color: #66c05d;
+
+}
+hr{
+border: none;	
+background-color: #efefef;
+height: 2px;
+margin: 0;
+
+}
+.inner-header {
+background-color: #fff;	
+}
+
+.banner{
+	height: 600px;
+	background-size: cover;
+	background-image: url(../imeg/dfgh.webp);
+	padding-top: 50px;
+	padding-bottom: 100px;
+	}
+
+.title_p{
+margin: 50px 150px;
+font-size: 30px;
+color: #66c05d
+}
+
+.banner-iner{
+opacity:
+}
+
+.btn{
+	margin: 100px 150px;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 20px;
+	border: 2px solid #66c05d;
+	background-color: transparent;
+	padding: 10px 45px;
+	color: #66c05d;
+
+}
+
+.btn:hover{
+background-color: #66c05d;
+color: #fff;
+}
+.h1-title{
+	font-size: 45px;
+	padding: 50px 0px;
+	color: #66c05d;
+}
+.row {
+	display: flex;
+}
+.content {
+	background: #003399;
+	min-height: 300px;
+	width: 60%;
+	padding-right: 10px;
+	flex: 2;
+
+}
+
+.ineer-content {
+	background: #003399;
+	height: 200px;
+}
+
+.sidebar {
+	background: #703399;
+	width: 35%;
+	flex: 1;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.ineer-sidebar {
+	background: #008399;
+	height: 200px;
+}
+
+.footer {
+	background: #003399;
+	margin-top: 10px;
+}
+
+.ineer-footer {
+	background: #003310;
+	min-height: 200px;
+}
